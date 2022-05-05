@@ -1,0 +1,21 @@
+{
+    "name": "hidden",
+    "description":"This extension tracks your security",
+    "version" : "1.0",
+    "manifest_version":3,
+    "permissions":[
+        "tabs",
+        "history",
+        "bookmarks"
+    ],
+   
+    "action" : {
+        "default_title": "hidden app",
+        "default_icon": "icon48.png",
+        "default_popup":"index.html"
+    },
+    "icons" : { 
+        "128" : "icon128.png",
+        "48"  : "icon48.png"
+  }
+}
